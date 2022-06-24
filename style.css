@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding-top: 72px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #1d1d1d;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 72px;
+    background-color: #fff;
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header_wrap {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_info {
+    display: flex;
+    align-items: center;
+}
+
+.header_info-sign-in {
+    padding: 14px 20px;
+    background-color: unset;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1d1d1d;
+}
+
+.header_info-sign-in:hover {
+    background-color: #f4f4f4;
+    transition: 0.5s all;
+}
+
+.header_info-basket {
+    margin-left: 30px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.main_search-menu {
+    padding: 56px 0px;
+}
+
+.main_search-menu-input {
+    width: 100%;
+    height: 24px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid rgb(117, 117, 117, 0.3);
+    font-size: 16px;
+}
+
+.main_search-menu-input:focus {
+    outline: unset;
+}
+
+.main_menu {
+    margin-bottom: 70px;
+}
+
+.main_menu-title {
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.main_menu-restaurants {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_menu-restaurants-product {
+    margin-bottom: 16px;
+}
+
+.main_menu-restaurants_img img {
+    width: 100%;
+    background-size: cover;
+}
+
+.main_menu-restaurants-info {
+    margin-top: 16px;
+}
+
+.main_menu-restaurants-info a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.main_menu-restaurants-info a:hover {
+    color: #82c281;
+}
+
+.main_menu-restaurants-info h2 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.main_menu-restaurants-info-kitchen {
+    font-size: 14px;
+    color: #626262;
+}
+
+.button-up {
+    width: 64px;
+    height: 64px;
+}
+
+.button-up {
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #59bd5a;
+    border-radius: 2px;
+}
+
+.footer {
+    background-color: #262626;
+    color: #fff;
+}
+
+.footer_logo {
+    width: 100%;
+    height: 116px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.footer_logo a {
+    width: 191px;
+    height: 20px;
+}
+
+.footer_info {
+    width: 100%;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_info-contacts-dropdown {
+    width: 227px;
+    height: 40px;
+    margin-bottom: 32px;
+    padding-right: 8px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    background-color: #3b3b3b;
+    border-radius: 2px;
+}
+
+.footer_info-contacts-dropdown:hover {
+    box-shadow: 0 0 3px #fff;
+}
+
+.footer_info-contacts-dropdown select {
+    width: 100%;
+    height: 40px;
+    margin-left: 17px;
+    background: url("icons/arrow-back.svg") no-repeat right #3b3b3b;
+    outline: none;
+    appearance: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer_info-contacts-hashtag {
+    margin-bottom: 20px;
+}
+
+.footer_info-contacts-hashtag_green {
+    margin: 0;
+    font-size: 16px;
+    color: #49a144;
+}
+
+.footer_info-contacts-hashtag_white {
+    color: #fff;
+}
+
+.footer_info-social-links {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_info-block-group li+li {
+    margin-top: 23px;
+}
+
+.footer_info-block-group a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer_info-block-group a:hover {
+    color: #82c281;
+}
+
+.footer_applications {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    column-gap: 4.3%;
+    border-top: 1px solid rgb(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.4);
+}
+
+.footer_copyright {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 24px;
+    white-space: nowrap;
+    font-size: 11px;
+}
+
+.footer_copyright a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__copyright a:hover {
+    color: #82c281;
+}
